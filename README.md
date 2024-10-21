@@ -13,8 +13,10 @@ This repository contains a simple SDN-based Ryu controller that allows only host
 ### 1. Install Mininet
 Follow these instructions to install Mininet:
 
-git clone https://github.com/mininet/mininet.git
+git clone https://github.com/mininet/mininet.git 
+
 cd mininet
+
 sudo ./util/install.sh -a
 
 
