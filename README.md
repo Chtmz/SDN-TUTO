@@ -32,6 +32,7 @@ pip3 install ryu
 To start the Ryu controller, run the following command in the `controller` directory:
 
 cd controller
+
 ryu-manager allow_only_h1.py
 
 
@@ -39,6 +40,7 @@ ryu-manager allow_only_h1.py
 In another terminal, navigate to the `mininet_topology` folder and run the Mininet topology:
 
 cd mininet_topology
+
 sudo python3 mininet_topology.py
 
 
